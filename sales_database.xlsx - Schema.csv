@@ -1,0 +1,18 @@
+,,,,,,,
+,,,,,,,
+,,,customer_dim,,,,product_dim
+,,,cust_id (pk),,order_dim,,product_id (pk)
+,,,first_name,,order_id (pk1),,product_name
+,,,last_name,,order_type (pk2),,brand
+,,,email,,cust_id (fk),,category
+,,,phone,,order_date,,procurement_cost_per_unit
+,,,primary_pincode (fk),,delivery_date,,mrp
+,,,gender,,tot_units,,
+,,,dob,,displayed_selling_price_per_unit,,
+,,,joining_date,,total_amount_paid,,
+,,,,,product_id (fk),,delivery_person_dim
+,,,,,delivery_person_id (fk),,delivery_person_id (pk)
+,,,pincode_dim,,payment_type,,name
+,,,pincode (pk),,delivery_pincode (fk),,joining_date
+,,,city,,,,pincode(fk)
+,,,state,,,,
